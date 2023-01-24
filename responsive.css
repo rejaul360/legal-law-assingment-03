@@ -1,0 +1,12 @@
+@media screen and (max-width: 576px){
+.slider_content p {
+    font-size: 14px;
+    line-height: 17px;
+}
+}
+
+@media screen and (max-width: 576px){
+.slider-height{
+    height: 75vh !important;
+}
+}

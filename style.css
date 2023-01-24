@@ -1,0 +1,180 @@
+/*==========
+         Google fonts
+=================== */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*==========
+       Common Style for everyone
+=================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'EB Garamond', serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.pera {
+    color: #707070;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*==========
+         header area desing
+=================== */
+.btn_desing {
+    width: 170px;
+    height: 44px;
+    background: #B68C5A;
+    border-radius: 5px;
+    border: 0;
+}
+
+.btn_tow {
+    width: 120px;
+    height: 44px;
+    background: #B68C5A;
+    border: 0;
+}
+
+.input_desing {
+    height: 44px;
+    width: 350px;
+}
+
+.banner {
+    background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%),url(../images/banner.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 600px;
+    border-radius: 8px;
+    margin: 0;
+    opacity: 3.5;
+}
+
+.banner_items {
+    width: 550px;
+    height: auto;
+    margin-top: 220px;
+}
+.section_margin {
+    margin-top: 120px;
+}
+.user_width {
+    width: 100px;
+    height: 100px;
+}
+/*==========
+         the legal practices area
+=================== */
+.bg-color-cart {
+    background: linear-gradient(180deg, #efebeb 0%, rgba(245, 244, 244, 0) 100%);
+    border-radius: 10px;
+}
+
+.accordion-item-desing {
+    background: #F3F3F3;
+    border-radius: 8px;
+}
+
+
+/*==========
+         Contact practices area
+=================== */
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+.carousel {
+    position: relative;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block;
+}
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+}
+.slider-height {
+    height: 75vh;
+}
+.pb-5 {
+    padding-bottom: 3rem!important;
+}
+.width-users {
+    width: 100px;
+    height: 100px;
+}
+p, li, a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    color: #707070;
+}
+/* =============
+          footer area deshing
+          ===================== */
+.section-margin-top {
+    margin-top: 120px;
+}
+.footer-padding-top-bottom {
+    padding: 120px 0 80px;
+}
+.text_color {
+    color: #CFCFCF;
+}
+.contact-bg {
+    background-color: #F3F3F3;
+}
+.input_bg{
+    color: #B68C5A;
+}
+.btn-primary {
+    background-color: #B68C5A !important;
+}
